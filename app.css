@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+body {
+  min-height: 100vh;
+  background-color: peachpuff;
+}
+
+.wrapper {
+  width: auto;
+  margin: 5em 200px;
+  border-radius: 50px;
+  padding: 2em 5em 2em 3em;
+  box-shadow: 20px 20px 50px 5px maroon;
+
+}
+.wrapper h2 {
+  text-align: center;
+  color: maroon;
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+.wrapper h4 {
+  color: maroon;
+  font-size: 1.5em;
+  margin-top: 1.5em;
+}
+
+input {
+  border: none;
+  background-color: peachpuff;
+  box-shadow: 0 1px maroon;
+}
+
+input::placeholder {
+  color: maroon;
+  opacity: 0.5;
+}
+
+input.name {
+  padding-top: 1.5em;
+  width: 96%;
+}
+
+input.dob{
+  padding-top: 1.5em;
+  width: 31.5%;
+}
+
+input[type="radio"] {
+  box-shadow: none;
+  margin-top: 1.5em;
+}
+
+.input-box .fa{
+  color: maroon;
+}
+
+label {
+  color: maroon;
+  padding-right: 5em;
+}
+
+input[type="tel"] {
+  padding-top: 1.5em;
+  width: 96%;
+}
+
+.input-box select {
+  width: 48%;
+  border: none;
+  background-color: maroon;
+  color: peachpuff;
+  box-shadow: 0 1px peachpuff;
+  padding-top: .5em;
+  margin-top: 1em;
+  border-radius: 5px;
+}
+
+.input-box button {
+  width: 100%;
+  background-color: maroon;
+  color: peachpuff;
+  margin-top: 7em;
+  margin-bottom: 3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border: none;
+  border-radius: 15px;
+}
+
+
+@media screen and (max-width: 768px){
+  .input-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
